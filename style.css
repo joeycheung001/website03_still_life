@@ -87,3 +87,58 @@
 
 
 
+#strawberries {
+    position: absolute;
+    top: 90px;
+    left: 110px;
+}
+.sb1 {
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    rotate: 15deg;
+}
+.sb2 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    rotate: 30deg;
+}
+.sb3 {
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    rotate: 25deg;
+}
+.sb4 {
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    rotate: 35deg;
+}
+.sb5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.strawberry-outer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 75px solid red;
+    border-radius: 10px;
+}
+.strawberry-inner {
+    position: absolute;
+    top: 5px;
+
+    border-left: 10px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 75px solid coral;
+    border-radius: 10px;
+    transform: scale(0.5);
+}
+
