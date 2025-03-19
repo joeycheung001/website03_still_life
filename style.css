@@ -1,3 +1,7 @@
+#entire {
+    zoom:1.5;
+}
+
 #waffle {
     position: absolute;
     top: 50px;
@@ -42,9 +46,11 @@
 
 
 
+
+
 #mangoes {
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 70px;
 }
 .mango-look {
@@ -89,7 +95,7 @@
 
 #strawberries {
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 110px;
 }
 .sb1 {
@@ -142,3 +148,67 @@
     transform: scale(0.5);
 }
 
+
+
+
+
+#ice-cream {
+    position: absolute;
+    top: 135px;
+    left: 75px;
+
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(pink, lightcoral );
+}
+
+#cup {
+    position: absolute;
+    top: 230px;
+    left: 65px;
+}
+.cup-bottom {
+    width: 120px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+}
+.cup-front {
+    position: absolute;
+    top: -60px;
+
+    width: 120px;
+    height: 85px;
+    background: linear-gradient(coral, red);
+}
+.cup-rim {
+    position: absolute;
+    top: -65px;
+    left: -10px;
+
+    width: 130px;
+    height: 0px;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
+
+
+
+
+
+#title {
+    position: absolute;
+    top: -40px;
+    left: 18px;
+
+    color: white;
+    line-height: 0;
+    text-align: center;
+}
+.title-kulu {
+    font-size: 30px;
+}
+.title-desserts {
+    font-size: 12px;
+}
