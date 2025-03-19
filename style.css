@@ -4,14 +4,12 @@
     left: 50px;
     rotate: 45deg;
 }
-
 .waffle-base {
     width: 145px;
     height: 145px;
     border-radius: 10px;
     background: linear-gradient(-45deg,coral,brown);
 }
-
 .waffle-circle {
     position: absolute;
     rotate: -45deg;
@@ -23,7 +21,6 @@
     border-radius: 50%;
     background: linear-gradient(coral,brown);
 }
-
 .col2 {
     margin-left: 35px;
 }
@@ -33,7 +30,6 @@
 .col4 {
     margin-left: 105px;
 }
-
 .row2 {
     margin-top: 35px;
 }
@@ -43,3 +39,51 @@
 .row4 {
     margin-top: 105px;
 }
+
+
+
+#mangoes {
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+.mango-look {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(yellow, orange);
+}
+.mango1 {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    rotate: -15deg;
+}
+.mango2 {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    rotate: 5deg;
+}
+.mango3 {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    rotate: 0deg;
+}
+.mango4 {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    rotate: 10deg;
+}
+.mango5 {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    rotate: -10deg;
+}
+
+
+
+
+
