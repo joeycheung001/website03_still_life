@@ -1,0 +1,45 @@
+#waffle {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    rotate: 45deg;
+}
+
+.waffle-base {
+    width: 145px;
+    height: 145px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg,coral,brown);
+}
+
+.waffle-circle {
+    position: absolute;
+    rotate: -45deg;
+    top: 5px;
+    left: 5px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(coral,brown);
+}
+
+.col2 {
+    margin-left: 35px;
+}
+.col3 {
+    margin-left: 70px;
+}
+.col4 {
+    margin-left: 105px;
+}
+
+.row2 {
+    margin-top: 35px;
+}
+.row3 {
+    margin-top: 70px;
+}
+.row4 {
+    margin-top: 105px;
+}
